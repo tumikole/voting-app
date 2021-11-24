@@ -1,0 +1,59 @@
+body {
+  background-image: url("https://www.gifservice.fr/img/gif-vignette-small/b13d34b0780b5b0f52b0957473412971/14386-flags-africa-south-africa-various.gif");
+  background-repeat: no-repeat;
+  counter-reset: section;
+}
+
+.formBody {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 70%;
+  height: 100%;
+  margin: auto !important;
+  border: 2px solid black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.side1{
+  background-image: url("https://www.ecfsadc.org/wp-content/uploads/2020/10/south_africa.jpg");
+  background-repeat: no-repeat;
+  background-size: 45rem;
+}
+
+.form {
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+/* .form input[type="text"] {
+  width: 70% !important;
+  padding-right: 2rem !important;
+} */
+.table {
+  width: 70% !important;
+  margin: 0 auto !important;
+}
+
+h1 {
+  padding-top: 1rem;
+}
+
+tbody tr::before {
+  counter-increment: section;
+  content: " " counter(section) " ";
+  background-color: #42393b;
+  margin-bottom: 10px;
+  width: 35px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  height: 35px;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+}
+
