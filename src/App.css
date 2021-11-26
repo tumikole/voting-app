@@ -9,7 +9,7 @@ body {
   grid-template-columns: 50% 50%;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  width: 70%;
+  width: 60%;
   height: 100%;
   margin: auto !important;
   border: 2px solid black;
@@ -19,22 +19,27 @@ body {
 }
 
 .side1{
-  background-image: url("https://www.ecfsadc.org/wp-content/uploads/2020/10/south_africa.jpg");
-  background-repeat: no-repeat;
-  background-size: 45rem;
+
 }
 
 .form {
   width: 90% !important;
   margin: 0 auto !important;
 }
-/* .form input[type="text"] {
-  width: 70% !important;
-  padding-right: 2rem !important;
-} */
+.form input {
+  padding-left: 3em !important;
+}
+
+.form label {
+  padding-left: 2rem !important;
+}
 .table {
   width: 70% !important;
   margin: 0 auto !important;
+}
+
+.form  legend {
+  padding-left: 2rem !important;
 }
 
 h1 {
